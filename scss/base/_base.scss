@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+// body::-webkit-scrollbar {
+//     display: none;
+// }
+
+hr{
+  margin: $margins;
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+
+i{
+  font-style: italic;
+}

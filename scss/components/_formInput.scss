@@ -1,0 +1,14 @@
+.input-main{
+  padding: 0.5em;
+  font-size: 1.1em;
+  border: 1px solid #c3c8c4;
+  &:focus{
+    outline: none;
+  }
+}
+
+.dino-text{
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin: 1em;
+}

@@ -1,0 +1,20 @@
+.hero{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/img/lizardpeople.jpg");
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  h1{
+    font-size: 7em;
+    color: $white;
+    text-shadow: 2px 2px black;
+  }
+  h2{
+    font-size: 3em;
+    color: $white;
+    text-shadow: 2px 2px black
+  }
+}

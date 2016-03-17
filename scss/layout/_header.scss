@@ -1,0 +1,14 @@
+// Header Styles
+
+.header-main{
+  @include margin(1em null 1em null);
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.paragraph-main{
+  @include margin(1.5em null 1.5em 1em);
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 20px;
+}

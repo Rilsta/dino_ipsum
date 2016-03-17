@@ -1,0 +1,18 @@
+// Button Styles
+
+.button-main{
+  @include margin(1em null null null);
+  @include padding(1em);
+  border: none;
+  background: #48713f;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  &:hover{
+    letter-spacing: 3px;
+    color: $white;
+    background: #8c7a38;
+    cursor: pointer;
+  }
+}
